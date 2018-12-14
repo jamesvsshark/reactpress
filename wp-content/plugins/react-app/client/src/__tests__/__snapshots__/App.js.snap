@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample app should be defined and match snapshot 1`] = `[Function]`;
