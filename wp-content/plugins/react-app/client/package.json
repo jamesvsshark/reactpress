@@ -18,14 +18,17 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "jest": "^23.6.0",
     "regenerator-runtime": "^0.13.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-table": "^6.8.6"
   }
 }
