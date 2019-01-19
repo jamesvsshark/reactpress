@@ -11,7 +11,7 @@ if (!defined('ABSPATH'))
     exit;
 
 function react_app_handler($atts) {
-    $html = '<div id="react-app-container"></div>';
+    $html = '<div id="react-app-container" />';
     return $html;
 }
 

@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   module: {
     rules: [
@@ -7,6 +9,18 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              publicPath: "../wp-content/plugins/react-app/client/dist/images",
+              outputPath: "images/"
+            }
+          }
+        ]
       }
     ]
   }
