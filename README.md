@@ -21,6 +21,10 @@ docker-compose up -d --build
     [react-app]
 ```
 
+// Additionally...
+
+Copy the ReactApp.php page templated into your theme directory and set this as the page layout to just get the full react app on the page.
+
 5. Edit React code in ./wp-content/plguins/react-app/client
 
 ```
